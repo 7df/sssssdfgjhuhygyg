@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "$";
+const prefix = "_";
 /////////////////////////
 ////////////////////////
 
@@ -334,15 +334,15 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.content === "$help") {
-message.author.send("** [❖═════$play═══════❖]**" + `  **
-❖ $play : لتشغيل اغنية
-❖ $join : دخول رومك الصوتي
-❖ $disconnect : مطور البوت
-❖ $skip : تخطي الأغنية
-❖ $pause : ايقاف الاغنية مؤقتا
-❖ $resume : تكملة الاغنية
-❖ $queue : اظهار قائمة التشغيل
-❖ $np : اظهار الاغنية اللي انت مشغلها حاليا
+message.author.send("** [❖═════_play═══════❖]**" + `  **
+❖ _play : لتشغيل اغنية
+❖ _join : دخول رومك الصوتي
+❖ _disconnect : مطور البوت
+❖ _skip : تخطي الأغنية
+❖ _pause : ايقاف الاغنية مؤقتا
+❖ _resume : تكملة الاغنية
+❖ _queue : اظهار قائمة التشغيل
+❖ _np : اظهار الاغنية اللي انت مشغلها حاليا
 **`);
     }
 });     
