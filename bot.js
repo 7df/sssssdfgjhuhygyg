@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت 1**')
+        .setDescription('**برفكس البوت $**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -359,7 +359,7 @@ message.author.send("** [❖═════play═══════❖]**" + ` 
 
 
 client.on('message', message => {
-    if (message.content === 'general_commands') {
+    if (message.content === 'ttto') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر عامة...**')
         .addField('avatar', "افاتار الشخص المطلوب")
